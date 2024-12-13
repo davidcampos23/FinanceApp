@@ -2,8 +2,8 @@
 @using FinanceApp.Models
 @inject UserService UserService
 
-<div>
-    <EditForm Model="user" OnInvalidSubmit="HandleSubmit">
+@* <div> *@
+@* <EditForm Model="user" OnInvalidSubmit="HandleSubmit">
         <DataAnnotationsValidator />
         <ValidationSummary />
 
@@ -23,4 +23,4 @@
         await UserService.UserCreateAsync(user);
         user = new UserRegister();
     }
-}
+} *@
