@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\dev\\FinanceApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FinanceApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FinanceApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\dev\\FinanceApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\dev\\FinanceApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\dev\\FinanceApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\dev\\FinanceApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinanceApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FinanceApp.props",
+      "PackagePath": "build\\FinanceApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FinanceApp.props",
+      "PackagePath": "buildMultiTargeting\\FinanceApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FinanceApp.props",
+      "PackagePath": "buildTransitive\\FinanceApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

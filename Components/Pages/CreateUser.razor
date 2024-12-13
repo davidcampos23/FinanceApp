@@ -1,0 +1,26 @@
+@using FinanceApp.Service
+@using FinanceApp.Models
+@inject UserService UserService
+
+<div>
+    <EditForm Model="user" OnInvalidSubmit="HandleSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div>
+            <label for="username">Nome de Usuario</label>
+            <InputText id="username" @bind-Value="user.UserName" class="form-control" />
+        </div>
+
+    </EditForm>
+</div>
+
+@code {
+    private UserRegister user = new();
+
+    private async Task HandleSubmit()
+    {
+        await UserService.UserCreateAsync(user);
+        user = new UserRegister();
+    }
+}
